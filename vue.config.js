@@ -5,8 +5,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   devServer: {
     historyApiFallback: true,
-    compress: true,
-    disableHostCheck: true,
   },
   outputDir: 'dist',
   assetsDir: 'static'
